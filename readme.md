@@ -186,18 +186,19 @@ bash evaluate.sh
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
     <div style="text-align: center;">
-        <video id="video1" controls="" src="./src/A beautiful coastal beach in spring, waves lapping on sand by Hokusai, in the style of Ukiyo-0.mp4" preload="none" width="300"></video>
+        <video id="video1" controls="" src="./src/v1.mp4" preload="none" width="300"></video>
         <p>Prompt：A beautiful coastal beach in spring, waves lapping on sand by Hokusai, in the style of Ukiyo</p>
     </div>
     <div style="text-align: center;">
-        <video id="video2" controls="" src="./src/A bigfoot walking in the snowstorm.-0.mp4" preload="none" width="300"></video>
+        <video id="video2" controls="" src="./src/v2.mp4" preload="none" width="300"></video>
         <p>Prompt: A bigfoot walking in the snowstorm</p>
     </div>
     <div style="text-align: center;">
-        <video id="video3" controls="" src="./src/A jellyfish floating through the ocean, with bioluminescent tentacles-2.mp4" preload="none" width="300"></video>
+        <video id="video3" controls="" src="./src/v3.mp4" preload="none" width="300"></video>
         <p>Prompt: A jellyfish floating through the ocean, with bioluminescent tentacles</p>
     </div>
 </div>
+
 
 
 
