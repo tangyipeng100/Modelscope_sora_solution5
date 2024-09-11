@@ -12,7 +12,7 @@
 
 #### 2.视频片段筛选
 
-在场景切分得到的视频数据基础上，分别经过 `video_motion_score_filter`、`video_ocr_area_ratio_filter`、`video_aesthetics_filter`、`video_nsfw_filter` 以及 `video_watermark_filter` 算子的筛选。筛选的阈值见 `demo_config.yaml` 文件。以下是各算子的含义、运算过程中的线程数，以及经过筛选算子后剩余的视频数量：
+在场景切分得到的视频数据基础上，分别经过 `video_motion_score_filter`、`video_ocr_area_ratio_filter`、`video_aesthetics_filter`、`video_nsfw_filter` 以及 `video_watermark_filter` 算子的筛选。筛选的阈值见 `demo_config.yaml` 文件。以下是各算子的含义、运算过程中的线程数以及经过筛选算子后剩余的视频数量：
 
 | 算子名称                      | 算子含义                                                     | 线程数量 | 经过算子前片段数量 | 经过算子后片段数量 | 备注                             |
 | ----------------------------- | ------------------------------------------------------------ | -------- | ------------------ | ------------------ | -------------------------------- |
