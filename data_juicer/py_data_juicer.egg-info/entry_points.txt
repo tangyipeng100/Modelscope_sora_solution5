@@ -1,0 +1,3 @@
+[console_scripts]
+dj-analyze = data_juicer.tools.analyze_data:main
+dj-process = data_juicer.tools.process_data:main

@@ -1,0 +1,43 @@
+# Process config example for dataset
+# video_captioning_from_video_mapper算子用于生成视频caption，如果视频已经有了更详细的caption，可以不运该算子
+project_name: 'demo-process'
+dataset_path: '/home/Mount_8T/Modelscope_sora_solution5/output/processed_data/scene_detect.jsonl' # assign absolute path, 分割得到的视频片段,运行该脚本前,要修改scene_detect.jsonl中的视频路径
+np: 4  # number of subprocess to process your dataset
+
+export_path: '/home/Mount_8T/Modelscope_sora_solution5/output/processed_data/processed_scene_detect.jsonl' # assign absolute path, 处理得到的包含视频路径的jsonl文件路径
+
+# process schedule
+# a list of several process operators with their arguments
+
+process:
+ - video_motion_score_filter:
+    min_score: 2.5987868309
+
+ - video_ocr_area_ratio_filter:
+
+ - video_aesthetics_filter:
+    frame_sampling_method: 'uniform'
+    frame_num: 3
+    
+ - video_nsfw_filter: 
+    frame_sampling_method: 'uniform'
+    frame_num: 20
+    
+ - video_watermark_filter:
+    frame_sampling_method: 'uniform'
+    frame_num: 20
+    prob_threshold: 0.959692359
+
+# video_captioning_from_video_mapper算子用于生成视频caption，如果视频已经有了更详细的caption，可以不运该算子
+ - video_captioning_from_video_mapper:
+    frame_sampling_method: 'uniform'
+    frame_num: 20
+
+ - video_frames_text_similarity_filter:
+    frame_sampling_method: 'uniform'
+    frame_num: 20
+
+ - perplexity_filter:
+    lang: en
+    max_ppl: 7376.81378
+

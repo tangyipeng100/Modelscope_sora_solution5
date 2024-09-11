@@ -1,0 +1,866 @@
+[
+    {
+        "prompt_en": "a person swimming in ocean",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a person swimming in ocean-0.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a person swimming in ocean-1.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a person swimming in ocean-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "a person giving a presentation to a room full of colleagues",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a person giving a presentation to a room full of colleagues-0.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a person giving a presentation to a room full of colleagues-1.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a person giving a presentation to a room full of colleagues-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "a person washing the dishes",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a person washing the dishes-0.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a person washing the dishes-1.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a person washing the dishes-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "a person eating a burger",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a person eating a burger-0.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a person eating a burger-1.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a person eating a burger-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "a person walking in the snowstorm",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a person walking in the snowstorm-0.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a person walking in the snowstorm-1.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a person walking in the snowstorm-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "a person drinking coffee in a cafe",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a person drinking coffee in a cafe-0.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a person drinking coffee in a cafe-1.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a person drinking coffee in a cafe-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "a person playing guitar",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a person playing guitar-0.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a person playing guitar-1.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a person playing guitar-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "a bicycle leaning against a tree",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a bicycle leaning against a tree-0.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a bicycle leaning against a tree-1.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a bicycle leaning against a tree-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "a bicycle gliding through a snowy field",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a bicycle gliding through a snowy field-0.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a bicycle gliding through a snowy field-1.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a bicycle gliding through a snowy field-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "a bicycle slowing down to stop",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a bicycle slowing down to stop-0.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a bicycle slowing down to stop-1.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a bicycle slowing down to stop-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "a bicycle accelerating to gain speed",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a bicycle accelerating to gain speed-0.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a bicycle accelerating to gain speed-1.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a bicycle accelerating to gain speed-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "a car stuck in traffic during rush hour",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a car stuck in traffic during rush hour-0.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a car stuck in traffic during rush hour-1.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a car stuck in traffic during rush hour-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "a car turning a corner",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a car turning a corner-0.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a car turning a corner-1.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a car turning a corner-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "a car slowing down to stop",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a car slowing down to stop-0.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a car slowing down to stop-1.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a car slowing down to stop-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "a car accelerating to gain speed",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a car accelerating to gain speed-0.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a car accelerating to gain speed-1.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a car accelerating to gain speed-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "a motorcycle cruising along a coastal highway",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a motorcycle cruising along a coastal highway-0.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a motorcycle cruising along a coastal highway-1.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a motorcycle cruising along a coastal highway-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "a motorcycle turning a corner",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a motorcycle turning a corner-0.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a motorcycle turning a corner-1.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a motorcycle turning a corner-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "a motorcycle slowing down to stop",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a motorcycle slowing down to stop-0.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a motorcycle slowing down to stop-1.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a motorcycle slowing down to stop-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "a motorcycle gliding through a snowy field",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a motorcycle gliding through a snowy field-0.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a motorcycle gliding through a snowy field-1.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a motorcycle gliding through a snowy field-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "a motorcycle accelerating to gain speed",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a motorcycle accelerating to gain speed-0.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a motorcycle accelerating to gain speed-1.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a motorcycle accelerating to gain speed-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "an airplane soaring through a clear blue sky",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/an airplane soaring through a clear blue sky-0.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/an airplane soaring through a clear blue sky-1.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/an airplane soaring through a clear blue sky-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "an airplane taking off",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/an airplane taking off-0.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/an airplane taking off-1.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/an airplane taking off-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "an airplane landing smoothly on a runway",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/an airplane landing smoothly on a runway-0.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/an airplane landing smoothly on a runway-1.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/an airplane landing smoothly on a runway-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "an airplane accelerating to gain speed",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/an airplane accelerating to gain speed-0.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/an airplane accelerating to gain speed-1.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/an airplane accelerating to gain speed-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "a bus turning a corner",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a bus turning a corner-0.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a bus turning a corner-1.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a bus turning a corner-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "a bus stuck in traffic during rush hour",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a bus stuck in traffic during rush hour-0.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a bus stuck in traffic during rush hour-1.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a bus stuck in traffic during rush hour-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "a bus accelerating to gain speed",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a bus accelerating to gain speed-0.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a bus accelerating to gain speed-1.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a bus accelerating to gain speed-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "a train speeding down the tracks",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a train speeding down the tracks-0.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a train speeding down the tracks-1.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a train speeding down the tracks-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "a train crossing over a tall bridge",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a train crossing over a tall bridge-0.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a train crossing over a tall bridge-1.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a train crossing over a tall bridge-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "a train accelerating to gain speed",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a train accelerating to gain speed-0.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a train accelerating to gain speed-1.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a train accelerating to gain speed-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "a truck turning a corner",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a truck turning a corner-0.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a truck turning a corner-1.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a truck turning a corner-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "a truck anchored in a tranquil bay",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a truck anchored in a tranquil bay-0.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a truck anchored in a tranquil bay-1.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a truck anchored in a tranquil bay-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "a truck stuck in traffic during rush hour",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a truck stuck in traffic during rush hour-0.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a truck stuck in traffic during rush hour-1.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a truck stuck in traffic during rush hour-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "a truck slowing down to stop",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a truck slowing down to stop-0.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a truck slowing down to stop-1.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a truck slowing down to stop-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "a truck accelerating to gain speed",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a truck accelerating to gain speed-0.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a truck accelerating to gain speed-1.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a truck accelerating to gain speed-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "a boat sailing smoothly on a calm lake",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a boat sailing smoothly on a calm lake-0.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a boat sailing smoothly on a calm lake-1.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a boat sailing smoothly on a calm lake-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "a boat slowing down to stop",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a boat slowing down to stop-0.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a boat slowing down to stop-1.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a boat slowing down to stop-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "a boat accelerating to gain speed",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a boat accelerating to gain speed-0.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a boat accelerating to gain speed-1.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a boat accelerating to gain speed-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "a bird soaring gracefully in the sky",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a bird soaring gracefully in the sky-0.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a bird soaring gracefully in the sky-1.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a bird soaring gracefully in the sky-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "a bird building a nest from twigs and leaves",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a bird building a nest from twigs and leaves-0.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a bird building a nest from twigs and leaves-1.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a bird building a nest from twigs and leaves-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "a bird flying over a snowy forest",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a bird flying over a snowy forest-0.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a bird flying over a snowy forest-1.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a bird flying over a snowy forest-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "a cat grooming itself meticulously with its tongue",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a cat grooming itself meticulously with its tongue-0.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a cat grooming itself meticulously with its tongue-1.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a cat grooming itself meticulously with its tongue-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "a cat playing in park",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a cat playing in park-0.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a cat playing in park-1.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a cat playing in park-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "a cat drinking water",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a cat drinking water-0.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a cat drinking water-1.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a cat drinking water-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "a cat running happily",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a cat running happily-0.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a cat running happily-1.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a cat running happily-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "a dog enjoying a peaceful walk",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a dog enjoying a peaceful walk-0.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a dog enjoying a peaceful walk-1.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a dog enjoying a peaceful walk-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "a dog playing in park",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a dog playing in park-0.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a dog playing in park-1.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a dog playing in park-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "a dog drinking water",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a dog drinking water-0.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a dog drinking water-1.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a dog drinking water-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "a dog running happily",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a dog running happily-0.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a dog running happily-1.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a dog running happily-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "a horse bending down to drink water from a river",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a horse bending down to drink water from a river-0.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a horse bending down to drink water from a river-1.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a horse bending down to drink water from a river-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "a horse galloping across an open field",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a horse galloping across an open field-0.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a horse galloping across an open field-1.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a horse galloping across an open field-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "a horse taking a peaceful walk",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a horse taking a peaceful walk-0.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a horse taking a peaceful walk-1.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a horse taking a peaceful walk-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "a horse running to join a herd of its kind",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a horse running to join a herd of its kind-0.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a horse running to join a herd of its kind-1.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a horse running to join a herd of its kind-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "a sheep bending down to drink water from a river",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a sheep bending down to drink water from a river-0.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a sheep bending down to drink water from a river-1.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a sheep bending down to drink water from a river-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "a sheep taking a peaceful walk",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a sheep taking a peaceful walk-0.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a sheep taking a peaceful walk-1.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a sheep taking a peaceful walk-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "a sheep running to join a herd of its kind",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a sheep running to join a herd of its kind-0.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a sheep running to join a herd of its kind-1.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a sheep running to join a herd of its kind-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "a cow bending down to drink water from a river",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a cow bending down to drink water from a river-0.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a cow bending down to drink water from a river-1.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a cow bending down to drink water from a river-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "a cow chewing cud while resting in a tranquil barn",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a cow chewing cud while resting in a tranquil barn-0.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a cow chewing cud while resting in a tranquil barn-1.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a cow chewing cud while resting in a tranquil barn-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "a cow running to join a herd of its kind",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a cow running to join a herd of its kind-0.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a cow running to join a herd of its kind-1.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a cow running to join a herd of its kind-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "an elephant spraying itself with water using its trunk to cool down",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/an elephant spraying itself with water using its trunk to cool down-0.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/an elephant spraying itself with water using its trunk to cool down-1.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/an elephant spraying itself with water using its trunk to cool down-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "an elephant taking a peaceful walk",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/an elephant taking a peaceful walk-0.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/an elephant taking a peaceful walk-1.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/an elephant taking a peaceful walk-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "an elephant running to join a herd of its kind",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/an elephant running to join a herd of its kind-0.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/an elephant running to join a herd of its kind-1.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/an elephant running to join a herd of its kind-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "a bear catching a salmon in its powerful jaws",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a bear catching a salmon in its powerful jaws-0.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a bear catching a salmon in its powerful jaws-1.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a bear catching a salmon in its powerful jaws-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "a bear sniffing the air for scents of food",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a bear sniffing the air for scents of food-0.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a bear sniffing the air for scents of food-1.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a bear sniffing the air for scents of food-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "a bear climbing a tree",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a bear climbing a tree-0.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a bear climbing a tree-1.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a bear climbing a tree-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "a bear hunting for prey",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a bear hunting for prey-0.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a bear hunting for prey-1.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a bear hunting for prey-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "a zebra bending down to drink water from a river",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a zebra bending down to drink water from a river-0.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a zebra bending down to drink water from a river-1.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a zebra bending down to drink water from a river-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "a zebra running to join a herd of its kind",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a zebra running to join a herd of its kind-0.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a zebra running to join a herd of its kind-1.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a zebra running to join a herd of its kind-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "a zebra taking a peaceful walk",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a zebra taking a peaceful walk-0.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a zebra taking a peaceful walk-1.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a zebra taking a peaceful walk-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "a giraffe bending down to drink water from a river",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a giraffe bending down to drink water from a river-0.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a giraffe bending down to drink water from a river-1.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a giraffe bending down to drink water from a river-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "a giraffe taking a peaceful walk",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a giraffe taking a peaceful walk-0.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a giraffe taking a peaceful walk-1.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a giraffe taking a peaceful walk-2.mp4"
+        ]
+    },
+    {
+        "prompt_en": "a giraffe running to join a herd of its kind",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a giraffe running to join a herd of its kind-0.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a giraffe running to join a herd of its kind-1.mp4",
+            "/home/Mount_2_6T/dj_sora_challenge/output/generated_videos/a giraffe running to join a herd of its kind-2.mp4"
+        ]
+    }
+]

@@ -1,0 +1,286 @@
+2024-09-11 12:39:35.438 | WARNING  | data_juicer.config.config:init_setup_from_cfg:414 - dataset_path [./output/processed_data/scene_detect.jsonl] is not a valid local path. Please check and retry, otherwise we will treat it as a remote dataset or a mixture of several datasets.
+2024-09-11 12:39:37.147 | INFO     | data_juicer.config.config:config_backup:646 - Back up the input config file [/home/Mount_8T/Modelscope_sora_solution5/dataset_processed.yaml] into the work_dir [/home/Mount_8T/Modelscope_sora_solution5/data_juicer/output/processed_data]
+2024-09-11 12:39:37.169 | INFO     | data_juicer.config.config:display_config:668 - Configuration table: 
+╒════════════════════════════╤═══════════════════════════════════════════════════════════════════════════════════════════════════════════╕
+│ key                        │ values                                                                                                    │
+╞════════════════════════════╪═══════════════════════════════════════════════════════════════════════════════════════════════════════════╡
+│ config                     │ [Path_fr(/home/Mount_8T/Modelscope_sora_solution5/dataset_processed.yaml)]                                │
+├────────────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ hpo_config                 │ None                                                                                                      │
+├────────────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ path_k_sigma_recipe        │ None                                                                                                      │
+├────────────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ path_model_feedback_recipe │ None                                                                                                      │
+├────────────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ model_infer_config         │ None                                                                                                      │
+├────────────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ model_train_config         │ None                                                                                                      │
+├────────────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ data_eval_config           │ None                                                                                                      │
+├────────────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ model_eval_config          │ None                                                                                                      │
+├────────────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ data_probe_algo            │ 'uniform'                                                                                                 │
+├────────────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ data_probe_ratio           │ 1.0                                                                                                       │
+├────────────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ project_name               │ 'demo-process'                                                                                            │
+├────────────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ executor_type              │ 'default'                                                                                                 │
+├────────────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ dataset_path               │ './output/processed_data/scene_detect.jsonl'                                                              │
+├────────────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ export_path                │ '/home/Mount_8T/Modelscope_sora_solution5/data_juicer/output/processed_data/processed_scene_detect.jsonl' │
+├────────────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ export_shard_size          │ 0                                                                                                         │
+├────────────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ export_in_parallel         │ False                                                                                                     │
+├────────────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ keep_stats_in_res_ds       │ False                                                                                                     │
+├────────────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ keep_hashes_in_res_ds      │ False                                                                                                     │
+├────────────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ np                         │ 4                                                                                                         │
+├────────────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ text_keys                  │ 'text'                                                                                                    │
+├────────────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ image_key                  │ 'images'                                                                                                  │
+├────────────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ image_special_token        │ '<__dj__image>'                                                                                           │
+├────────────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ audio_key                  │ 'audios'                                                                                                  │
+├────────────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ audio_special_token        │ '<__dj__audio>'                                                                                           │
+├────────────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ video_key                  │ 'videos'                                                                                                  │
+├────────────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ video_special_token        │ '<__dj__video>'                                                                                           │
+├────────────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ eoc_special_token          │ '<|__dj__eoc|>'                                                                                           │
+├────────────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ suffixes                   │ []                                                                                                        │
+├────────────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ use_cache                  │ True                                                                                                      │
+├────────────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ ds_cache_dir               │ '/home/lhs/.cache/huggingface/datasets'                                                                   │
+├────────────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ cache_compress             │ None                                                                                                      │
+├────────────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ use_checkpoint             │ False                                                                                                     │
+├────────────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ temp_dir                   │ None                                                                                                      │
+├────────────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ open_tracer                │ False                                                                                                     │
+├────────────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ op_list_to_trace           │ []                                                                                                        │
+├────────────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ trace_num                  │ 10                                                                                                        │
+├────────────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ op_fusion                  │ False                                                                                                     │
+├────────────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ process                    │ [{'video_motion_score_filter': {'accelerator': 'cpu',                                                     │
+│                            │                                 'any_or_all': 'any',                                                      │
+│                            │                                 'audio_key': 'audios',                                                    │
+│                            │                                 'cpu_required': 1,                                                        │
+│                            │                                 'image_key': 'images',                                                    │
+│                            │                                 'max_score': 1.7976931348623157e+308,                                     │
+│                            │                                 'mem_required': 0,                                                        │
+│                            │                                 'min_score': 2.5987868309,                                                │
+│                            │                                 'sampling_fps': 2,                                                        │
+│                            │                                 'spec_numprocs': 0,                                                       │
+│                            │                                 'stats_export_path': None,                                                │
+│                            │                                 'text_key': 'text',                                                       │
+│                            │                                 'use_actor': False,                                                       │
+│                            │                                 'video_key': 'videos'}},                                                  │
+│                            │  {'video_ocr_area_ratio_filter': {'accelerator': 'cpu',                                                   │
+│                            │                                   'any_or_all': 'any',                                                    │
+│                            │                                   'audio_key': 'audios',                                                  │
+│                            │                                   'cpu_required': 1,                                                      │
+│                            │                                   'frame_sample_num': 3,                                                  │
+│                            │                                   'image_key': 'images',                                                  │
+│                            │                                   'languages_to_detect': ['ch_sim', 'en'],                                │
+│                            │                                   'max_area_ratio': 1.0,                                                  │
+│                            │                                   'mem_required': 0,                                                      │
+│                            │                                   'min_area_ratio': 0,                                                    │
+│                            │                                   'spec_numprocs': 0,                                                     │
+│                            │                                   'stats_export_path': None,                                              │
+│                            │                                   'text_key': 'text',                                                     │
+│                            │                                   'use_actor': False,                                                     │
+│                            │                                   'video_key': 'videos'}},                                                │
+│                            │  {'video_aesthetics_filter': {'accelerator': 'cpu',                                                       │
+│                            │                               'any_or_all': 'any',                                                        │
+│                            │                               'audio_key': 'audios',                                                      │
+│                            │                               'cpu_required': 1,                                                          │
+│                            │                               'frame_num': 3,                                                             │
+│                            │                               'frame_sampling_method': 'uniform',                                         │
+│                            │                               'hf_scorer_model': '',                                                      │
+│                            │                               'image_key': 'images',                                                      │
+│                            │                               'max_score': 1.0,                                                           │
+│                            │                               'mem_required': 0,                                                          │
+│                            │                               'min_score': 0.4,                                                           │
+│                            │                               'reduce_mode': 'avg',                                                       │
+│                            │                               'spec_numprocs': 0,                                                         │
+│                            │                               'stats_export_path': None,                                                  │
+│                            │                               'text_key': 'text',                                                         │
+│                            │                               'use_actor': False,                                                         │
+│                            │                               'video_key': 'videos'}},                                                    │
+│                            │  {'video_nsfw_filter': {'accelerator': 'cpu',                                                             │
+│                            │                         'any_or_all': 'any',                                                              │
+│                            │                         'audio_key': 'audios',                                                            │
+│                            │                         'cpu_required': 1,                                                                │
+│                            │                         'frame_num': 20,                                                                  │
+│                            │                         'frame_sampling_method': 'uniform',                                               │
+│                            │                         'hf_nsfw_model': 'Falconsai/nsfw_image_detection',                                │
+│                            │                         'image_key': 'images',                                                            │
+│                            │                         'mem_required': 0,                                                                │
+│                            │                         'reduce_mode': 'avg',                                                             │
+│                            │                         'score_threshold': 0.5,                                                           │
+│                            │                         'spec_numprocs': 0,                                                               │
+│                            │                         'stats_export_path': None,                                                        │
+│                            │                         'text_key': 'text',                                                               │
+│                            │                         'use_actor': False,                                                               │
+│                            │                         'video_key': 'videos'}},                                                          │
+│                            │  {'video_watermark_filter': {'accelerator': 'cpu',                                                        │
+│                            │                              'any_or_all': 'any',                                                         │
+│                            │                              'audio_key': 'audios',                                                       │
+│                            │                              'cpu_required': 1,                                                           │
+│                            │                              'frame_num': 20,                                                             │
+│                            │                              'frame_sampling_method': 'uniform',                                          │
+│                            │                              'hf_watermark_model': 'amrul-hzz/watermark_detector',                        │
+│                            │                              'image_key': 'images',                                                       │
+│                            │                              'mem_required': 0,                                                           │
+│                            │                              'prob_threshold': 0.959692359,                                               │
+│                            │                              'reduce_mode': 'avg',                                                        │
+│                            │                              'spec_numprocs': 0,                                                          │
+│                            │                              'stats_export_path': None,                                                   │
+│                            │                              'text_key': 'text',                                                          │
+│                            │                              'use_actor': False,                                                          │
+│                            │                              'video_key': 'videos'}},                                                     │
+│                            │  {'video_captioning_from_video_mapper': {'accelerator': 'cpu',                                            │
+│                            │                                          'audio_key': 'audios',                                           │
+│                            │                                          'batched_op': False,                                             │
+│                            │                                          'caption_num': 1,                                                │
+│                            │                                          'cpu_required': 1,                                               │
+│                            │                                          'frame_num': 20,                                                 │
+│                            │                                          'frame_sampling_method': 'uniform',                              │
+│                            │                                          'hf_video_blip': 'kpyu/video-blip-opt-2.7b-ego4d',               │
+│                            │                                          'horizontal_flip': False,                                        │
+│                            │                                          'image_key': 'images',                                           │
+│                            │                                          'keep_candidate_mode': 'random_any',                             │
+│                            │                                          'keep_original_sample': True,                                    │
+│                            │                                          'mem_required': 0,                                               │
+│                            │                                          'prompt': None,                                                  │
+│                            │                                          'prompt_key': None,                                              │
+│                            │                                          'spec_numprocs': 0,                                              │
+│                            │                                          'text_key': 'text',                                              │
+│                            │                                          'use_actor': False,                                              │
+│                            │                                          'vertical_flip': False,                                          │
+│                            │                                          'video_key': 'videos'}},                                         │
+│                            │  {'video_frames_text_similarity_filter': {'accelerator': 'cpu',                                           │
+│                            │                                           'any_or_all': 'any',                                            │
+│                            │                                           'audio_key': 'audios',                                          │
+│                            │                                           'cpu_required': 1,                                              │
+│                            │                                           'frame_num': 20,                                                │
+│                            │                                           'frame_sampling_method': 'uniform',                             │
+│                            │                                           'hf_clip': 'openai/clip-vit-base-patch32',                      │
+│                            │                                           'horizontal_flip': False,                                       │
+│                            │                                           'image_key': 'images',                                          │
+│                            │                                           'max_score': 1.0,                                               │
+│                            │                                           'mem_required': 0,                                              │
+│                            │                                           'min_score': 0.1,                                               │
+│                            │                                           'reduce_mode': 'avg',                                           │
+│                            │                                           'spec_numprocs': 0,                                             │
+│                            │                                           'stats_export_path': None,                                      │
+│                            │                                           'text_key': 'text',                                             │
+│                            │                                           'use_actor': False,                                             │
+│                            │                                           'vertical_flip': False,                                         │
+│                            │                                           'video_key': 'videos'}},                                        │
+│                            │  {'perplexity_filter': {'accelerator': 'cpu',                                                             │
+│                            │                         'audio_key': 'audios',                                                            │
+│                            │                         'cpu_required': 1,                                                                │
+│                            │                         'image_key': 'images',                                                            │
+│                            │                         'lang': 'en',                                                                     │
+│                            │                         'max_ppl': 7376.81378,                                                            │
+│                            │                         'mem_required': 0,                                                                │
+│                            │                         'spec_numprocs': 0,                                                               │
+│                            │                         'stats_export_path': None,                                                        │
+│                            │                         'text_key': 'text',                                                               │
+│                            │                         'use_actor': False,                                                               │
+│                            │                         'video_key': 'videos'}}]                                                          │
+├────────────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ percentiles                │ []                                                                                                        │
+├────────────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ export_original_dataset    │ False                                                                                                     │
+├────────────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ save_stats_in_one_file     │ False                                                                                                     │
+├────────────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ ray_address                │ 'auto'                                                                                                    │
+├────────────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ debug                      │ False                                                                                                     │
+├────────────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ work_dir                   │ '/home/Mount_8T/Modelscope_sora_solution5/data_juicer/output/processed_data'                              │
+├────────────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ timestamp                  │ '20240911123935'                                                                                          │
+├────────────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ dataset_dir                │ ''                                                                                                        │
+├────────────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ add_suffix                 │ False                                                                                                     │
+╘════════════════════════════╧═══════════════════════════════════════════════════════════════════════════════════════════════════════════╛
+2024-09-11 12:39:37.171 | INFO     | data_juicer.core.executor:__init__:49 - Using cache compression method: [None]
+2024-09-11 12:39:37.171 | INFO     | data_juicer.core.executor:__init__:54 - Setting up data formatter...
+2024-09-11 12:39:37.171 | ERROR    | __main__:<module>:24 - An error has been caught in function '<module>', process 'MainProcess' (2549611), thread 'MainThread' (140618241627328):
+Traceback (most recent call last):
+
+> File "/home/Mount_8T/Modelscope_sora_solution5/data_juicer/tools/process_data.py", line 24, in <module>
+    main()
+    └ <function main at 0x7fe323c75870>
+
+  File "/home/Mount_8T/Modelscope_sora_solution5/data_juicer/tools/process_data.py", line 16, in main
+    executor = Executor(cfg)
+               │        └ Namespace(config=[Path_fr(/home/Mount_8T/Modelscope_sora_solution5/dataset_processed.yaml)], hpo_config=None, path_k_sigma_re...
+               └ <class 'data_juicer.core.executor.Executor'>
+
+  File "/home/Mount_2_6T/dj_sora_challenge/toolkit/data-juicer/data_juicer/core/executor.py", line 55, in __init__
+    self.formatter = load_formatter(self.cfg.dataset_path,
+    │                │              │    │   └ './output/processed_data/scene_detect.jsonl'
+    │                │              │    └ Namespace(config=[Path_fr(/home/Mount_8T/Modelscope_sora_solution5/dataset_processed.yaml)], hpo_config=None, path_k_sigma_re...
+    │                │              └ <data_juicer.core.executor.Executor object at 0x7fe3214ae3e0>
+    │                └ <function load_formatter at 0x7fe323c65ab0>
+    └ <data_juicer.core.executor.Executor object at 0x7fe3214ae3e0>
+
+  File "/home/Mount_2_6T/dj_sora_challenge/toolkit/data-juicer/data_juicer/format/load.py", line 22, in load_formatter
+    formatter = MixtureFormatter(dataset_path=dataset_path,
+                │                             └ './output/processed_data/scene_detect.jsonl'
+                └ <class 'data_juicer.format.mixture_formatter.MixtureFormatter'>
+
+  File "/home/Mount_2_6T/dj_sora_challenge/toolkit/data-juicer/data_juicer/format/mixture_formatter.py", line 58, in __init__
+    self.formatters = [
+    └ <data_juicer.format.mixture_formatter.MixtureFormatter object at 0x7fe3214aeef0>
+
+  File "/home/Mount_2_6T/dj_sora_challenge/toolkit/data-juicer/data_juicer/format/mixture_formatter.py", line 59, in <listcomp>
+    load_formatter(dataset_path=data_prefix,
+    │                           └ './output/processed_data/scene_detect.jsonl'
+    └ <function load_formatter at 0x7fe32419d3f0>
+
+  File "/home/Mount_2_6T/dj_sora_challenge/toolkit/data-juicer/data_juicer/format/formatter.py", line 322, in load_formatter
+    raise ValueError(f'Unable to load the dataset from [{dataset_path}]. '
+
+ValueError: Unable to load the dataset from [./output/processed_data/scene_detect.jsonl]. It might be because Data-Juicer doesn't support the format of this dataset, or the path of this dataset is incorrect.Please check if it's a valid dataset path and retry.
+Traceback (most recent call last):
+  File "/home/Mount_8T/Modelscope_sora_solution5/data_juicer/tools/process_data.py", line 24, in <module>
+    main()
+  File "/home/lhs/anaconda3/envs/gptresearcher/lib/python3.10/site-packages/loguru/_logger.py", line 1277, in catch_wrapper
+    return function(*args, **kwargs)
+  File "/home/Mount_8T/Modelscope_sora_solution5/data_juicer/tools/process_data.py", line 16, in main
+    executor = Executor(cfg)
+  File "/home/Mount_2_6T/dj_sora_challenge/toolkit/data-juicer/data_juicer/core/executor.py", line 55, in __init__
+    self.formatter = load_formatter(self.cfg.dataset_path,
+  File "/home/Mount_2_6T/dj_sora_challenge/toolkit/data-juicer/data_juicer/format/load.py", line 22, in load_formatter
+    formatter = MixtureFormatter(dataset_path=dataset_path,
+  File "/home/Mount_2_6T/dj_sora_challenge/toolkit/data-juicer/data_juicer/format/mixture_formatter.py", line 58, in __init__
+    self.formatters = [
+  File "/home/Mount_2_6T/dj_sora_challenge/toolkit/data-juicer/data_juicer/format/mixture_formatter.py", line 59, in <listcomp>
+    load_formatter(dataset_path=data_prefix,
+  File "/home/Mount_2_6T/dj_sora_challenge/toolkit/data-juicer/data_juicer/format/formatter.py", line 322, in load_formatter
+    raise ValueError(f'Unable to load the dataset from [{dataset_path}]. '
+ValueError: Unable to load the dataset from [./output/processed_data/scene_detect.jsonl]. It might be because Data-Juicer doesn't support the format of this dataset, or the path of this dataset is incorrect.Please check if it's a valid dataset path and retry.

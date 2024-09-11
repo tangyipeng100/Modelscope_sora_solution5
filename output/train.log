@@ -1,0 +1,98 @@
+The following values were not passed to `accelerate launch` and had defaults used instead:
+	`--num_processes` was set to a value of `2`
+		More than one GPU was found, enabling multi-GPU training.
+		If this was unintended please pass in `--num_processes=1`.
+	`--num_machines` was set to a value of `1`
+	`--dynamo_backend` was set to a value of `'no'`
+To avoid this warning pass in values for each of the problematic parameters or run `accelerate config`.
+
+===================================BUG REPORT===================================
+Welcome to bitsandbytes. For bug reports, please submit your error trace to: https://github.com/TimDettmers/bitsandbytes/issues
+================================================================================
+
+===================================BUG REPORT===================================
+Welcome to bitsandbytes. For bug reports, please submit your error trace to: https://github.com/TimDettmers/bitsandbytes/issues
+================================================================================
+/home/lhs/anaconda3/envs/gptresearcher/lib/python3.10/site-packages/bitsandbytes/cuda_setup/main.py:136: UserWarning: /home/lhs/anaconda3/envs/gptresearcher did not contain libcudart.so as expected! Searching further paths...
+  warn(msg)
+/home/lhs/anaconda3/envs/gptresearcher/lib/python3.10/site-packages/bitsandbytes/cuda_setup/main.py:136: UserWarning: /home/lhs/anaconda3/envs/gptresearcher did not contain libcudart.so as expected! Searching further paths...
+  warn(msg)
+/home/lhs/anaconda3/envs/gptresearcher/lib/python3.10/site-packages/bitsandbytes/cuda_setup/main.py:136: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('+'), PosixPath('/usr/local/cuda-11.3/lib64LIBRARY-PATH')}
+  warn(msg)
+/home/lhs/anaconda3/envs/gptresearcher/lib/python3.10/site-packages/bitsandbytes/cuda_setup/main.py:136: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('+'), PosixPath('/usr/local/cuda-11.3/lib64LIBRARY-PATH')}
+  warn(msg)
+/home/lhs/anaconda3/envs/gptresearcher/lib/python3.10/site-packages/bitsandbytes/cuda_setup/main.py:136: UserWarning: /usr/local/cuda-11.3/lib64LIBRARY-PATH:+: did not contain libcudart.so as expected! Searching further paths...
+  warn(msg)
+/home/lhs/anaconda3/envs/gptresearcher/lib/python3.10/site-packages/bitsandbytes/cuda_setup/main.py:136: UserWarning: /usr/local/cuda-11.3/lib64LIBRARY-PATH:+: did not contain libcudart.so as expected! Searching further paths...
+  warn(msg)
+/home/lhs/anaconda3/envs/gptresearcher/lib/python3.10/site-packages/bitsandbytes/cuda_setup/main.py:136: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('local/lhs-Precision-7920-Tower'), PosixPath('@/tmp/.ICE-unix/5189,unix/lhs-Precision-7920-Tower')}
+  warn(msg)
+/home/lhs/anaconda3/envs/gptresearcher/lib/python3.10/site-packages/bitsandbytes/cuda_setup/main.py:136: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('local/lhs-Precision-7920-Tower'), PosixPath('@/tmp/.ICE-unix/5189,unix/lhs-Precision-7920-Tower')}
+  warn(msg)
+/home/lhs/anaconda3/envs/gptresearcher/lib/python3.10/site-packages/bitsandbytes/cuda_setup/main.py:136: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('/etc/xdg/xdg-ubuntu')}
+  warn(msg)
+/home/lhs/anaconda3/envs/gptresearcher/lib/python3.10/site-packages/bitsandbytes/cuda_setup/main.py:136: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('0'), PosixPath('1')}
+  warn(msg)
+/home/lhs/anaconda3/envs/gptresearcher/lib/python3.10/site-packages/bitsandbytes/cuda_setup/main.py:136: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('/etc/xdg/xdg-ubuntu')}
+  warn(msg)
+/home/lhs/anaconda3/envs/gptresearcher/lib/python3.10/site-packages/bitsandbytes/cuda_setup/main.py:136: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('7890'), PosixPath('//127.0.0.1'), PosixPath('http')}
+  warn(msg)
+/home/lhs/anaconda3/envs/gptresearcher/lib/python3.10/site-packages/bitsandbytes/cuda_setup/main.py:136: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('1'), PosixPath('0')}
+  warn(msg)
+/home/lhs/anaconda3/envs/gptresearcher/lib/python3.10/site-packages/bitsandbytes/cuda_setup/main.py:136: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('7890'), PosixPath('//127.0.0.1'), PosixPath('socks5')}
+  warn(msg)
+/home/lhs/anaconda3/envs/gptresearcher/lib/python3.10/site-packages/bitsandbytes/cuda_setup/main.py:136: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('http'), PosixPath('//127.0.0.1'), PosixPath('7890')}
+  warn(msg)
+/home/lhs/anaconda3/envs/gptresearcher/lib/python3.10/site-packages/bitsandbytes/cuda_setup/main.py:136: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('/tmp/torchelastic_p2l0vgfh/none_bkqct2vb/attempt_0/1/error.json')}
+  warn(msg)
+/home/lhs/anaconda3/envs/gptresearcher/lib/python3.10/site-packages/bitsandbytes/cuda_setup/main.py:136: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('//127.0.0.1'), PosixPath('socks5'), PosixPath('7890')}
+  warn(msg)
+CUDA_SETUP: WARNING! libcudart.so not found in any environmental path. Searching /usr/local/cuda/lib64...
+CUDA SETUP: CUDA runtime path found: /usr/local/cuda/lib64/libcudart.so
+CUDA SETUP: Highest compute capability among GPUs detected: 8.6
+CUDA SETUP: Detected CUDA version 113
+/home/lhs/anaconda3/envs/gptresearcher/lib/python3.10/site-packages/bitsandbytes/cuda_setup/main.py:136: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('/tmp/torchelastic_p2l0vgfh/none_bkqct2vb/attempt_0/0/error.json')}
+  warn(msg)
+CUDA SETUP: Loading binary /home/lhs/anaconda3/envs/gptresearcher/lib/python3.10/site-packages/bitsandbytes/libbitsandbytes_cuda113.so...
+CUDA_SETUP: WARNING! libcudart.so not found in any environmental path. Searching /usr/local/cuda/lib64...
+CUDA SETUP: CUDA runtime path found: /usr/local/cuda/lib64/libcudart.so
+CUDA SETUP: Highest compute capability among GPUs detected: 8.6
+CUDA SETUP: Detected CUDA version 113
+CUDA SETUP: Loading binary /home/lhs/anaconda3/envs/gptresearcher/lib/python3.10/site-packages/bitsandbytes/libbitsandbytes_cuda113.so...
+[2024-09-11 13:01:14,365] [INFO] [real_accelerator.py:203:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-09-11 13:01:14,368] [INFO] [real_accelerator.py:203:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[93m [WARNING] [0m async_io requires the dev libaio .so object and headers but these were not found.
+[93m [WARNING] [0m async_io requires the dev libaio .so object and headers but these were not found.
+[93m [WARNING] [0m async_io: please install the libaio-dev package with apt
+[93m [WARNING] [0m async_io: please install the libaio-dev package with apt
+[93m [WARNING] [0m If libaio is already installed (perhaps from source), try setting the CFLAGS and LDFLAGS environment variables to where it can be found.
+[93m [WARNING] [0m Please specify the CUTLASS repo directory as environment variable $CUTLASS_PATH
+[93m [WARNING] [0m If libaio is already installed (perhaps from source), try setting the CFLAGS and LDFLAGS environment variables to where it can be found.
+[93m [WARNING] [0m Please specify the CUTLASS repo directory as environment variable $CUTLASS_PATH
+[93m [WARNING] [0m sparse_attn requires a torch version >= 1.5 and < 2.0 but detected 2.0
+[93m [WARNING] [0m sparse_attn requires a torch version >= 1.5 and < 2.0 but detected 2.0
+[93m [WARNING] [0m using untested triton version (2.0.0), only 1.0.0 is known to be compatible
+[93m [WARNING] [0m using untested triton version (2.0.0), only 1.0.0 is known to be compatible
+[2024-09-11 13:01:18,627] [INFO] [comm.py:637:init_distributed] cdb=None
+[2024-09-11 13:01:18,627] [INFO] [comm.py:668:init_distributed] Initializing TorchBackend in DeepSpeed with backend nccl
+[2024-09-11 13:01:18,628] [INFO] [comm.py:637:init_distributed] cdb=None
+09/11/2024 13:01:18 - INFO - __main__ - Distributed environment: DEEPSPEED  Backend: nccl
+Num processes: 2
+Process index: 1
+Local process index: 1
+Device: cuda:1
+
+Mixed precision type: bf16
+ds_config: {'train_batch_size': 'auto', 'train_micro_batch_size_per_gpu': 'auto', 'gradient_accumulation_steps': 1, 'zero_optimization': {'stage': 2, 'offload_optimizer': {'device': 'none', 'nvme_path': None}, 'offload_param': {'device': 'none', 'nvme_path': None}, 'stage3_gather_16bit_weights_on_model_save': False}, 'steps_per_print': inf, 'bf16': {'enabled': True}, 'fp16': {'enabled': False}}
+
+09/11/2024 13:01:18 - INFO - __main__ - Distributed environment: DEEPSPEED  Backend: nccl
+Num processes: 2
+Process index: 0
+Local process index: 0
+Device: cuda:0
+
+Mixed precision type: bf16
+ds_config: {'train_batch_size': 'auto', 'train_micro_batch_size_per_gpu': 'auto', 'gradient_accumulation_steps': 1, 'zero_optimization': {'stage': 2, 'offload_optimizer': {'device': 'none', 'nvme_path': None}, 'offload_param': {'device': 'none', 'nvme_path': None}, 'stage3_gather_16bit_weights_on_model_save': False}, 'steps_per_print': inf, 'bf16': {'enabled': True}, 'fp16': {'enabled': False}}
+
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]
