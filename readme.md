@@ -200,8 +200,8 @@ bash evaluate.sh
 </div>
 
 
-
-
+### Tips
+[解决AutoDL远程服务器训练大模型的常见问题：CPU内存不足与 SSH 断开](https://tangyipeng.blog.csdn.net/article/details/141869069)
 
 
 
