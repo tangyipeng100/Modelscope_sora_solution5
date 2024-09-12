@@ -217,9 +217,13 @@ bash evaluate.sh
 
 1.[`Modelscope-Sora挑战赛`](https://tianchi.aliyun.com/competition/entrance/532219)
 
-2.[`VBench`](https://github.com/Vchitect/VBench)
+2.[`data-juicer`](https://github.com/modelscope/data-juicer)
 
-3.[`CogVLM2-Video`](https://cogvlm2-video.github.io/)
+3.[`EasyAnimate`](https://github.com/aigc-apps/EasyAnimate)
+
+4.[`VBench`](https://github.com/Vchitect/VBench)
+
+5.[`CogVLM2-Video`](https://cogvlm2-video.github.io/)
 
 4.[`ModelScope魔搭社区`](https://community.modelscope.cn/)
 
