@@ -1,6 +1,6 @@
 # Modelscope-Sora挑战赛第五名参赛方案
 
-本项目是由`ame_code`队伍在[`Modelscope-Sora挑战赛`](https://tianchi.aliyun.com/competition/entrance/532219)复赛中的方案。以下详细描述了数据筛选过程、模型训练与推理步骤，以及最终的评测方法。基于本仓库,可在最低`24GB GPU`上实现对文生视频任务的学习及实验。本仓库首先给出比赛数据筛选方案，接下来给出数据筛选方案复现及模型训练、推理及评测代码。
+本项目是由`ame_code`队伍在[`Modelscope-Sora挑战赛`](https://tianchi.aliyun.com/competition/entrance/532219)复赛中的[方案](https://tianchi.aliyun.com/forum/post/772103)。以下详细描述了数据筛选过程、模型训练与推理步骤，以及最终的评测方法。基于本仓库,可在最低`24GB GPU`上实现对文生视频任务的学习及实验。本仓库首先给出比赛数据筛选方案，接下来给出数据筛选方案复现及模型训练、推理及评测代码。
 
 ![](./src/guideline.jpg)
 
