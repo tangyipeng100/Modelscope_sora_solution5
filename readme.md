@@ -225,7 +225,7 @@ bash evaluate.sh
 
 5.[`CogVLM2-Video`](https://cogvlm2-video.github.io/)
 
-4.[`ModelScope魔搭社区`](https://community.modelscope.cn/)
+6.[`ModelScope魔搭社区`](https://community.modelscope.cn/)
 
 
 
